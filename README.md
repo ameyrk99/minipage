@@ -2,9 +2,9 @@
 
 Minimalistic New Page/Home Page for you browser operated using keyboard.
 
-<kbd> ![Screenshot](sc.png) </kbd>
+![Example](example.gif)
 
-<kbd> ![Screenshot2](sc2.png) </kbd>
+<kbd> ![Screenshot](sc.png) </kbd>
 
 
 ### Installation
@@ -36,12 +36,11 @@ Add more cases, if you want, from line 37.
 * Direct link:
 just type or paste a link like youtube.com, etc and hit enter.
 
-Example:
-
-![Example](example.gif)
 
 
 Change the colors from css/style.css if you'd like :)
+
+<kbd> ![Screenshot2](sc2.png) </kbd>
 
 
 

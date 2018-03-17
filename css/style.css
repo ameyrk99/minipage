@@ -1,0 +1,43 @@
+input.box{
+    width: 10%;
+    height: 50px;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    background-color: white;
+
+    -webkit-transition: width 0.2s ease-in-out;
+    transition: width 0.2s ease-in-out;
+}
+
+input:focus{
+    width: 80%;
+}
+
+form {
+    padding-left: 15%;
+}
+
+div.container {
+    padding-top: 10%;
+    background-color: white;
+}
+
+div.jumbotron {
+    background-color: white;
+}
+
+body.body {
+    color: black;
+    background-color: white;
+    font-family: "monospace";
+    text-decoration-color: black;
+}
+
+#dateTime {
+    font-size: 15px;
+}
+
+p.end{
+    padding-top: 35%
+}

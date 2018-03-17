@@ -1,6 +1,6 @@
 # MiniPage
 
-Minimalistic New Page/Home Page for your browser, operated using keyboard.
+Minimalistic Home Page for your browser, operated using keyboard.
 
 ![Example](example.gif)
 
@@ -33,18 +33,29 @@ Search over web by: ':g xyz' or':b xyz'(where xyz is your search term) where:
 	:r for reddit
 	:ya for yahoo
 	:t for twitter
-(Default being Google i.e if you don't type anything before the search term, it'll google it). Change it if you want on line 64.
+(Default being Google i.e if you don't type anything before the search term, it'll google it). Change it if you want on line 54.
 
-Add more cases, if you want, from line 37.
+Add more cases, if you want, from line 44.
 
 * Direct link:
 just type or paste a link like youtube.com, etc and hit enter.
 
 
+* Keyword redirect:
+Enter a keyword such as 
+	faceook
+	gmail
+
+![keywordExample](keywordExample.gif)
+
+Add your keywords and their url to srchEn array in js/search.js
+
 
 Change the colors from css/style.css if you'd like :)
 
 <kbd> ![Screenshot2](sc2.png) </kbd>
+
+<kbd> ![Screenshot3](sc3.png) </kbd>
 
 
 

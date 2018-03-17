@@ -16,7 +16,8 @@ Download MiniPage to your prefered location, and set the homepage value to the p
 
 ![Search Example](example.png)
 
-Search over web by: ':g xyz' or':b xyz'(where xyz is your search term) where:
+Search over web by: ':g xyz' or':b xyz'(where xyz is your search term) where: 
+
 	:g for Google
 	:b for Bing
 	:d for DuckDuckGo
@@ -26,6 +27,7 @@ Search over web by: ':g xyz' or':b xyz'(where xyz is your search term) where:
 	:ya for yahoo
 	:t for twitter
 Default being Google i.e if you don't type anything before the term you want to search, it'll google it). Change it if you want on line 64.
+
 Add more cases, if you want, from line 37.
 
 * Direct link:

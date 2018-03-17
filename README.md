@@ -2,7 +2,7 @@
 
 Minimalistic New Page/Home Page for you browser operated using keyboard.
 
-![Screenshot](sc.png)
+<kbd> ![Screenshot](sc.png) </kbd>
 
 
 ### Installation

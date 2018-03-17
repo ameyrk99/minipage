@@ -1,6 +1,7 @@
 var formEl = document.querySelector('.js-form');
 var inputEl = formEl.elements[0];
 
+//dateTime
 /*window.setInterval(function () {
     var d = new Date();
     var date = d.toString().split(" ");

@@ -11,6 +11,10 @@ Minimalistic New Page/Home Page for your browser, operated using keyboard.
 
 Download MiniPage to your prefered location, and set the homepage value to the path to 'index.html'
 
+```
+git clone https://github.com/ameyrk99/minipage.git
+```
+
 ![Chrome](install.png)
 
 ### Ways to navigate:
@@ -29,7 +33,7 @@ Search over web by: ':g xyz' or':b xyz'(where xyz is your search term) where:
 	:r for reddit
 	:ya for yahoo
 	:t for twitter
-Default being Google i.e if you don't type anything before the term you want to search, it'll google it). Change it if you want on line 64.
+(Default being Google i.e if you don't type anything before the search term, it'll google it). Change it if you want on line 64.
 
 Add more cases, if you want, from line 37.
 
@@ -44,4 +48,4 @@ Change the colors from css/style.css if you'd like :)
 
 
 
-Note: The clock is not enabled by default. Uncomment the p(id: dateTime) and function below comment 'dateTime' in search.js
+Note: The clock is not enabled by default. Uncomment the p(id: dateTime) in index.html and function below comment 'dateTime' in search.js

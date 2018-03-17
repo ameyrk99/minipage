@@ -4,6 +4,8 @@ Minimalistic New Page/Home Page for you browser operated using keyboard.
 
 <kbd> ![Screenshot](sc.png) </kbd>
 
+<kbd> ![Screenshot2](sc2.png) </kbd>
+
 
 ### Installation
 

@@ -1,14 +1,14 @@
 var formEl = document.querySelector('.js-form');
 var inputEl = formEl.elements[0];
 
-window.setInterval(function () {
+/*window.setInterval(function () {
     var d = new Date();
     var date = d.toString().split(" ");
     for (i = 0; i < 2; i++) {
         date.pop();
     }
     document.getElementById("dateTime").innerHTML = date.join(" ");
-}, 1000);
+}, 1000);*/
 
 
 formEl.addEventListener('submit', evt => {

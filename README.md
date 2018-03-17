@@ -2,7 +2,8 @@
 
 Minimalistic New Page/Home Page for you browser operated using keyboard.
 
-![Example](example.gif)
+![Screenshot](sc.png)
+
 
 ### Installation
 
@@ -33,5 +34,13 @@ Add more cases, if you want, from line 37.
 * Direct link:
 just type or paste a link like youtube.com, etc and hit enter.
 
+Example:
+
+![Example](example.gif)
+
 
 Change the colors from css/style.css if you'd like :)
+
+
+
+Note: The clock is not enabled by default. Uncomment the p(id: dateTime) and function below comment 'dateTime' in search.js

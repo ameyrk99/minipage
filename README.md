@@ -1,6 +1,6 @@
 # MiniPage
 
-Minimalistic New Page/Home Page for you browser operated using keyboard.
+Minimalistic New Page/Home Page for your browser, operated using keyboard.
 
 ![Example](example.gif)
 

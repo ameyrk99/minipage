@@ -1,20 +1,20 @@
-#MiniPage
+# MiniPage
 
 Minimalistic New Page/Home Page for you browser operated using keyboard.
 
-![Example] (example.gif)
+![Example](example.gif)
 
-###Installation
+### Installation
 
 Download MiniPage to your prefered location, and set the homepage value to the path to 'index.html'
 
-![Chrome] (install.png)
+![Chrome](install.png)
 
-###Ways to navigate:
+### Ways to navigate:
 
 * Search:
 
-![Search Example] (example.png)
+![Search Example](example.png)
 
 Search over web by: ':g xyz' or':b xyz'(where xyz is your search term) where:
 	:g for Google

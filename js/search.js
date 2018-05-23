@@ -34,7 +34,9 @@ var elseDo = function (searchTerm) {
         "youtube", "https://www.youtube.com/",
         "gmail", "https://mail.google.com/",
         "amazon", "https://www.amazon.com/",
-        "twitter", "https://www.twitter.com/"
+        "twitter", "https://www.twitter.com/",
+        "git", "https://www.github.com/",
+        "code", "https://www.codecademy.com/"
     ];
 
     var srchEn = [

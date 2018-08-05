@@ -4,6 +4,11 @@ Minimalistic Home Page for your browser, operated using keyboard.
 
 ![Example](example.gif)
 
+This is the new design(made to go with my tetris i3 rice):
+![New design](screenshot.png)
+Everything regarding how it works is still the same, execpt the visual shortcuts this time.
+
+Old design:
 <kbd> ![Screenshot](sc.png) </kbd>
 
 

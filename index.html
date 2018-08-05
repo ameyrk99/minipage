@@ -3,10 +3,14 @@
 <head>
     <title>MiniPage</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <script src="script.js"></script>
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+    <script type="text/babel" src="cre.js"></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGGSURBVDhP3dTLK0RhGMfx4xLChtwiiURS2ElZK8mCWCAsKGVnS0osRJEi2bAQiR02IrdyyS2ShZU/wNof4Ps7z5kzjDnNlBW/+jTP+zZz5p3nPGecf5Fs1KAamdrwkuC9xp1OXOAYa9jElecFtzjFA87QhKhJwTZWkKuNiOikB9iDTq6UQl/e4q4isoNBKwOTiEW8I00bpBD7VobTAZ0sniThDuXuynFScW5lONrIszJm0vEIXVhpxbSVlgqcWBkzusOrGHBXdlHdrDJ3RdT8V+hNsaKLLWDJXVl0sjErLYeYxLq7Ck4J9N4phOZwGBvw51I3Yg5DUJOjJQejuEeDNoguMI43aNT8aH4KUIUPNCMLleiFhvoG6ldoRNSiXahNs9r4mmfvVanDMvSztjCCeoSi+evHE9qhzxbhW/QIZVgZGM1YD9SSGWiIj7y9H+mCTlQLv7EkH23QoGveJqDWdEO97ENgGqGfqF5dQw+8eqQ/BDX9EpoznXAexfhVdBeTrfzbcZxP+mBESeZ+agEAAAAASUVORK5CYII=">
 </head>
@@ -14,12 +18,13 @@
 <body class="body">
     <div class="container">
         <div class="jumbotron">
-            <!--<p id="dateTime"></p><br>-->
+            <!--<p class="box dateTime"></p><br>-->
             <form class="js-form">
                 <input type="text" class="box" placeholder="search" autocomplete="off" autofocus>
-            </form>
+            </form> <br> <br>
+
+            <div id="root"></div>
         </div>
-        <p style="text-align: center" class="end">Made with &#10084; by Amey Khairnar | 2018</p>
     </div>
     <script src="js/search.js"></script>
 </body>

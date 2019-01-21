@@ -1,17 +1,18 @@
 :root {
-    --black: #0b0d09;
-    --white: #F1F1F0;
-    --blue: #57C7FF;
-    --red: #e5514d;
-    --yellow: #e4ec71;
-    --green: #59f68d;
+    --black: #282A36;
+    --white: #F8F8F2;
+    --blue: #8BE9FD;
+    --red: #FF5555;
+    --yellow: #F1FA8C;
+    --green: #50FA7B;
+    --magenta: #FF79C6;
 }
 
 input.box{
     width: 10%;
     height: 50px;
     border: none;
-    border-bottom: 2px solid var(--green);
+    border-bottom: 2px solid var(--magenta);
     outline: none;
     font-size: 15px;
     background-color: var(--black);
@@ -41,8 +42,7 @@ div.jumbotron {
 body.body {
     background-color: var(--black);
     color: var(--white);
-    font-family: 'IBM 3270';
-    font-size: 15px;
+    font-family: 'Space Mono', monospace;
     text-decoration-color: var(--green);
 }
 
@@ -58,6 +58,7 @@ p.end{
     height: 50px;
     font-size: 35px;
     text-align: center;
+    font-size: 25px;
 }
 
 .blank_box {

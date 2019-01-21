@@ -1,18 +1,24 @@
 # MiniPage
 
-Minimalistic Home Page for your browser, operated using keyboard.
+Minimalistic Home Page for your browser, using duckduckgo.
 
-![Example](example.gif)
+![Example](minipage.gif)
 
-This is the new design(made to go with my tetris i3 rice):
-![New design](screenshot.png)
-Everything regarding how it works is still the same, execpt the visual shortcuts this time.
+---
 
-Old design:
-<kbd> ![Screenshot](sc.png) </kbd>
+### Usage
+- Enter the url and load the page in new tab like `marvel.com` as shown in gif.
+- Enter search term to search with duckduckgo.
+- Search or go to websites using duckduckgo's bangs. Such as:
+  - `!google` to open <https://google.com> and `!google xyz` to search `xyz` on google.
+  Learn more about duckduckgo's bangs [here](https://duckduckgo.com/bang).
 
+---
 
 ### Installation
+
+Use <https://ameyrk99.github.io/minipage/> as your homepage directly or download to change the shortcuts on home.
+<br>
 
 Download MiniPage to your prefered location, and set the homepage value to the path to 'index.html'
 
@@ -21,48 +27,3 @@ git clone https://github.com/ameyrk99/minipage.git
 ```
 
 ![Chrome](install.png)
-
-### Ways to navigate:
-
-* Search:
-
-![Search Example](example.png)
-
-Search over web by: ':g xyz' or':b xyz'(where xyz is your search term) where: 
-
-	:g for Google
-	:b for Bing
-	:d for DuckDuckGo
-	:w for Wikipedia
-	:y for youtube
-	:r for reddit
-	:ya for yahoo
-	:t for twitter
-(Default being Google i.e if you don't type anything before the search term, it'll google it). Change it if you want on line 54.
-
-Add more cases, if you want, from line 44.
-
-* Direct link:
-just type or paste a link like youtube.com, etc and hit enter.
-
-
-* Keyword redirect:
-Enter a keyword such as 
-
-	facebook
-	gmail
-
-![keywordExample](keywordExample.gif)
-
-Add your keywords and their url to srchEn array in js/search.js
-
-
-Change the colors from css/style.css if you'd like :)
-
-<kbd> ![Screenshot2](sc2.png) </kbd>
-
-<kbd> ![Screenshot3](sc3.png) </kbd>
-
-
-
-Note: The clock is not enabled by default. Uncomment the p(id: dateTime) in index.html and function below comment 'dateTime' in search.js

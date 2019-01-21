@@ -1,10 +1,21 @@
+:root {
+    --black: #0b0d09;
+    --white: #F1F1F0;
+    --blue: #57C7FF;
+    --red: #e5514d;
+    --yellow: #e4ec71;
+    --green: #59f68d;
+}
+
 input.box{
     width: 10%;
     height: 50px;
     border: none;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid var(--green);
     outline: none;
-    background-color: white;
+    font-size: 15px;
+    background-color: var(--black);
+    color: #f1f1f0;
 
     -webkit-transition: width 0.2s ease-in-out;
     transition: width 0.2s ease-in-out;
@@ -20,18 +31,19 @@ form {
 
 div.container {
     padding-top: 10%;
-    background-color: white;
+    background-color: var(--black);
 }
 
 div.jumbotron {
-    background-color: white;
+    background-color: var(--black);
 }
 
 body.body {
-    color: black;
-    background-color: white;
-    font-family: "monospace";
-    text-decoration-color: black;
+    background-color: var(--black);
+    color: var(--white);
+    font-family: 'IBM 3270';
+    font-size: 15px;
+    text-decoration-color: var(--green);
 }
 
 #dateTime {
@@ -40,4 +52,41 @@ body.body {
 
 p.end{
     padding-top: 35%
+}
+
+.box {
+    height: 50px;
+    font-size: 35px;
+    text-align: center;
+}
+
+.blank_box {
+    height: 50px;
+    font-size: 35px;
+    background-color: var(--black);
+}
+
+.bb {
+    background-color: var(--blue);
+    color: var(--black);
+}
+
+.rb{
+    background-color: var(--red);
+    color: var(--black);
+}
+
+.wb {
+    background-color: var(--white);
+    color: var(--black);
+}
+
+.gb {
+    background-color: var(--green);
+    color: var(--black);
+}
+
+.yb {
+    background-color: var(--yellow);
+    color: var(--black);
 }
